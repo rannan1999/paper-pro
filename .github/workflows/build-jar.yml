@@ -100,7 +100,7 @@ jobs:
       contents: write 
     steps:
       - name: Download Artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: server-jar
 
